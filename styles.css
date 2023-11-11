@@ -1,0 +1,34 @@
+/* From whatsapp */
+.from_w {
+    border: 0.1px solid darkgoldenrod;
+}
+/* product */
+.produk {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* image product*/
+.one, .two{
+    padding: 20px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.one, .two:hover {
+    cursor: pointer;
+}
+.one > img {
+    width: 200px;
+}
+.two > img {
+    width: 200px;
+}
+/* order */
+.from_order {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    padding: 10px;
+}
